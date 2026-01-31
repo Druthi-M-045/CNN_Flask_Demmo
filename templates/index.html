@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CNN Image Classification Demo - Upload images and classify them using deep learning convolutional neural networks">
+    <meta name="description"
+        content="CNN Image Classification Demo - Upload images and classify them using deep learning convolutional neural networks">
     <title>CNN Image Classifier | Deep Learning Demo</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <!-- Animated Background -->
     <div class="bg-animation">
@@ -45,13 +49,14 @@
             <div class="badge">🚀 Powered by Deep Learning</div>
             <h1>Image Classification with <span class="gradient-text">Neural Networks</span></h1>
             <p class="hero-description">
-                Experience the power of Convolutional Neural Networks. Upload any image and watch AI classify it in real-time with stunning accuracy.
+                Experience the power of Convolutional Neural Networks. Upload any image and watch AI classify it in
+                real-time with stunning accuracy.
             </p>
             <div class="hero-buttons">
                 <a href="#demo" class="btn btn-primary">
                     <span>Try Demo</span>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                        <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                 </a>
                 <a href="#how-it-works" class="btn btn-secondary">Learn More</a>
@@ -180,10 +185,11 @@
                 <div class="upload-area" id="uploadArea">
                     <div class="upload-content">
                         <div class="upload-icon">
-                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
-                                <polyline points="17,8 12,3 7,8"/>
-                                <line x1="12" y1="3" x2="12" y2="15"/>
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                <polyline points="17,8 12,3 7,8" />
+                                <line x1="12" y1="3" x2="12" y2="15" />
                             </svg>
                         </div>
                         <h3>Drop your image here</h3>
@@ -226,4 +232,5 @@
 
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
+
 </html>
